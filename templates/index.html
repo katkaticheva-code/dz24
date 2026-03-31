@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Головна{% endblock %}
+
+{% block content %}
+<h1>Веб-додаток "Планувальник"</h1>
+<p>Це простий веб-додаток на Flask.</p>
+
+<a class="btn" href="{{ url_for('planner') }}">
+    Перейти до планувальника
+</a>
+{% endblock %}
